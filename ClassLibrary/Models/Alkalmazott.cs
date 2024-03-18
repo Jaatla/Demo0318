@@ -43,7 +43,7 @@ namespace ClassLibrary.Models
 
         public override string? ToString()
         {
-            return "A nevem "+Nev+" beosztásom "+Beosztas+", fizetésem "+Fizetes+"$.";
+            return "A nevem "+Nev+" beosztásom "+Beosztas+", fizetésem "+Fizetes+"$ a főnököm:"+Fonok;
         }
     }
 }
